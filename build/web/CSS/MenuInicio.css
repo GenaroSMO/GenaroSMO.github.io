@@ -1,0 +1,116 @@
+body{
+    background-color:#eee ; 
+    background-image: url("../img/Fondo2.jpg");
+
+    /* Para dejar la imagen de fondo centrada, vertical yhorizontalmente */
+    background-position: center center;
+    /* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed;
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;
+    /*C:\Users\labsoft005\Documents\NetBeansProjects\Proyecto\web\img */
+
+}
+
+#div1 {
+    overflow:scroll;
+    height:417px;
+    width:717px;
+    margin: 50px auto ;
+}
+
+
+#div1 table {
+    width:700px;
+    height:400px;
+    background:#FFF;
+}
+
+#div2 {
+    overflow:scroll;
+    height:417px;
+    width:937px;
+    margin: 100px auto ;
+    background:#FFF;
+}
+
+#div2 table {
+    width:920px;    
+}
+
+table{
+    text-align:center;
+}
+
+
+
+
+
+#estilo2{
+    background:#FFF;
+    margin: 100px auto ;
+    width:  1000px;
+    height: 450px;
+}
+
+
+
+
+.boton {
+    text-decoration: none;
+    padding: 5px;
+    width:90px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #077B64;
+    border-radius: 5px;
+    border: 2px solid #000000;
+}
+
+#header {
+    margin:auto;
+    width:600px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:#077B64;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#434343;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}

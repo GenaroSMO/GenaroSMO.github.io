@@ -1,0 +1,109 @@
+body{
+    background-color:#eee ;
+    background-image: url("../img/Fondo2.jpg");
+    /* Para dejar la imagen de fondo centrada, vertical yhorizontalmente */
+    background-position: center center;
+    /* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed;
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;
+}
+
+
+.FormEliminar{
+    margin: 150px auto ;
+    width:  680px;
+    height: 430px;
+    background: #fff;
+}
+
+.FormActualizar{
+    margin: 150px auto ;
+    width:  700px;
+    height: 430px;
+    background: #fff;
+}
+
+.AgregarAlumno{
+    display: block;
+    color: white;
+    background: #077B64;
+    padding: 12px 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+
+.formAgregar{
+    margin: 100px auto ;
+    width:  590px;
+    height: 430px;
+    background: #fff;
+}
+
+.formConfiguracionDeHora{
+    margin: 100px auto ;
+    width:  710px;
+    height: 600px;
+    background: #fff;
+}
+
+.formActualizarFoto{
+    margin: 100px auto ;
+    width:  590px;
+    height: 560px;
+    background: #fff;
+}
+
+
+.formAvanzarDeSemestre{
+    margin: 100px auto ;
+    width:  600px;
+    height: 340px;
+    background: #fff;
+}
+
+.formGenerarReporte{
+    margin: 100px auto ;
+    width:  600px;
+    height: 470px;
+    background: #fff;
+}
+
+.boton {
+    text-decoration: none;
+    padding: 5px;
+    width:110px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #077B64;
+    border-radius: 5px;
+    border: 2px solid #000000;
+}
+
+
+.FormEliminar2{
+    margin: 150px auto ;
+    width:  600px;
+    height: 420px;
+    background: #fff;
+}
+
+.texto{
+    text-align:right;
+    font-size:20px;
+}
+
+.caja{
+    text-align: center; /*centramos el texto de las cajas */
+    height: 26px; /*tamaño ancho*/
+    width:200px; /*largo*/
+    font-size:20px; /*cambiar el tamaño de la letra de la caja*/
+}
+
+
